@@ -38,6 +38,11 @@ thread_1=threading.Thread(target=crearAnimacion(10,30, 'Y'))
 thread_1=threading.Thread(target=crearAnimacion(10,50, 'Z'))
 
 
+thread_1.start()
+thread_2.start()
+thread_3.start()
+
+
 # Mantener las siguientes líneas siempre al final del script y en el mismo orden.
 #Coloca la opcion "Salir"
 opcionFinalizar()
